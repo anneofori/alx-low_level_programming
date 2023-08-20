@@ -80,7 +80,7 @@ char **strtow(char *str)
 	strings = malloc(sizeof(char *) * (words + 1));
 	if (strings == NULL)
 		return (NULL);
-	
+
 	for (w = 0; w < words; w++)
 	{
 		while (str[index] == ' ')
